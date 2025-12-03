@@ -34,22 +34,22 @@ export default function Header() {
 
           {/* Menu Desktop */}
           <div className="hidden md:flex gap-8 items-center text-sm uppercase tracking-wider">
-            <Link href="#home" className="text-gray-300 hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 pb-1 transition duration-300 ease-in-out transform hover:scale-105">
+            <Link href="/" className="text-gray-300 hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 pb-1 transition duration-300 ease-in-out transform hover:scale-105">
               Trang Chủ
             </Link>
-            <Link href="#guides" className="text-gray-300 hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 pb-1 transition duration-300 ease-in-out transform hover:scale-105">
+            <Link href="/guides" className="text-gray-300 hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 pb-1 transition duration-300 ease-in-out transform hover:scale-105">
               Hướng Dẫn
             </Link>
-            <Link href="#heroes" className="text-gray-300 hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 pb-1 transition duration-300 ease-in-out transform hover:scale-105">
-              Nhân Vật
+            <Link href="/generals" className="text-gray-300 hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 pb-1 transition duration-300 ease-in-out transform hover:scale-105">
+              Tướng
             </Link>
-            <Link href="#rankings" className="text-gray-300 hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 pb-1 transition duration-300 ease-in-out transform hover:scale-105">
+            <Link href="/rankings" className="text-gray-300 hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 pb-1 transition duration-300 ease-in-out transform hover:scale-105">
               Bảng Xếp Hạng
             </Link>
-            <Link href="#news" className="text-gray-300 hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 pb-1 transition duration-300 ease-in-out transform hover:scale-105">
+            <Link href="/news" className="text-gray-300 hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 pb-1 transition duration-300 ease-in-out transform hover:scale-105">
               Tin Tức
             </Link>
-            <Link href="#community" className="text-gray-300 hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 pb-1 transition duration-300 ease-in-out transform hover:scale-105">
+            <Link href="/#community" className="text-gray-300 hover:text-yellow-400 hover:border-b-2 hover:border-yellow-400 pb-1 transition duration-300 ease-in-out transform hover:scale-105">
               Cộng Đồng
             </Link>
           </div>
@@ -68,22 +68,22 @@ export default function Header() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden mt-4 space-y-4 text-sm uppercase tracking-wider border-t border-yellow-600 pt-4">
-            <Link href="#home" className="block text-gray-300 hover:text-yellow-400 hover:bg-yellow-600 hover:bg-opacity-20 px-3 py-2 rounded transition duration-300 ease-in-out">
+            <Link href="/" className="block text-gray-300 hover:text-yellow-400 hover:bg-yellow-600 hover:bg-opacity-20 px-3 py-2 rounded transition duration-300 ease-in-out">
               Trang Chủ
             </Link>
-            <Link href="#guides" className="block text-gray-300 hover:text-yellow-400 hover:bg-yellow-600 hover:bg-opacity-20 px-3 py-2 rounded transition duration-300 ease-in-out">
+            <Link href="/guides" className="block text-gray-300 hover:text-yellow-400 hover:bg-yellow-600 hover:bg-opacity-20 px-3 py-2 rounded transition duration-300 ease-in-out">
               Hướng Dẫn
             </Link>
-            <Link href="#heroes" className="block text-gray-300 hover:text-yellow-400 hover:bg-yellow-600 hover:bg-opacity-20 px-3 py-2 rounded transition duration-300 ease-in-out">
-              Nhân Vật
+            <Link href="/generals" className="block text-gray-300 hover:text-yellow-400 hover:bg-yellow-600 hover:bg-opacity-20 px-3 py-2 rounded transition duration-300 ease-in-out">
+              Tướng
             </Link>
-            <Link href="#rankings" className="block text-gray-300 hover:text-yellow-400 hover:bg-yellow-600 hover:bg-opacity-20 px-3 py-2 rounded transition duration-300 ease-in-out">
+            <Link href="/rankings" className="block text-gray-300 hover:text-yellow-400 hover:bg-yellow-600 hover:bg-opacity-20 px-3 py-2 rounded transition duration-300 ease-in-out">
               Bảng Xếp Hạng
             </Link>
-            <Link href="#news" className="block text-gray-300 hover:text-yellow-400 hover:bg-yellow-600 hover:bg-opacity-20 px-3 py-2 rounded transition duration-300 ease-in-out">
+            <Link href="/news" className="block text-gray-300 hover:text-yellow-400 hover:bg-yellow-600 hover:bg-opacity-20 px-3 py-2 rounded transition duration-300 ease-in-out">
               Tin Tức
             </Link>
-            <Link href="#community" className="block text-gray-300 hover:text-yellow-400 hover:bg-yellow-600 hover:bg-opacity-20 px-3 py-2 rounded transition duration-300 ease-in-out">
+            <Link href="/#community" className="block text-gray-300 hover:text-yellow-400 hover:bg-yellow-600 hover:bg-opacity-20 px-3 py-2 rounded transition duration-300 ease-in-out">
               Cộng Đồng
             </Link>
           </div>
