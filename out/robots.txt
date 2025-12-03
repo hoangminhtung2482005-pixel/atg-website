@@ -1,0 +1,19 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Allow: /guides
+Allow: /heroes
+Allow: /rankings
+Allow: /news
+
+# Disallow private or duplicate content
+Disallow: /admin
+Disallow: /api
+Disallow: /*.json
+Disallow: /*?*sort=
+
+# Sitemaps
+Sitemap: https://lien-quan-7vyuno6tb-hoang-minh-tungs-projects.vercel.app/sitemap.xml
+
+# Crawl delay for courtesy
+Crawl-delay: 1
