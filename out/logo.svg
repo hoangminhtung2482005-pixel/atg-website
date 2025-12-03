@@ -1,0 +1,21 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#d4af37" stroke-width="4"/>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Background -->
+  <circle cx="100" cy="100" r="90" fill="#0a0a0a"/>
+  
+  <!-- Text: ATG -->
+  <text x="100" y="95" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#d4af37" text-anchor="middle" letter-spacing="8">ATG</text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="12" fill="#d4af37" text-anchor="middle" letter-spacing="2">AOV TACTICS & GUIDES</text>
+  
+  <!-- Stars -->
+  <text x="75" y="145" font-size="14" text-anchor="middle">✦</text>
+  <text x="125" y="145" font-size="14" text-anchor="middle">✦</text>
+  
+  <!-- Date -->
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="10" fill="#d4af37" text-anchor="middle" opacity="0.7">10/02/2024</text>
+</svg>
